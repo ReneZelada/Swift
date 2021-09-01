@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "5F4026E2-068B-4AF4-BD31-E254D6F05EF8"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2C6BA502-1648-4BD6-9A85-C3BAF08D6E86"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "bookApp/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "9"
+            endingLineNumber = "9"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  uuid = "2C6BA502-1648-4BD6-9A85-C3BAF08D6E86 - 39f1934cff7c7d54"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "bookApp.ViewController.__allocating_init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; bookApp.ViewController"
+                  moduleName = "bookApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/renezelada/Documents/GitHub/Swift/bookApp/bookApp/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  uuid = "2C6BA502-1648-4BD6-9A85-C3BAF08D6E86 - 2c849a02ff2cd824"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "bookApp.ViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; bookApp.ViewController"
+                  moduleName = "bookApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/renezelada/Documents/GitHub/Swift/bookApp/bookApp/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "183">
+               </Location>
+               <Location
+                  uuid = "2C6BA502-1648-4BD6-9A85-C3BAF08D6E86 - 1cf855f41cc85c3c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "bookApp.ViewController.__allocating_init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;bookApp.ViewController&gt;"
+                  moduleName = "bookApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/renezelada/Documents/GitHub/Swift/bookApp/bookApp/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  uuid = "2C6BA502-1648-4BD6-9A85-C3BAF08D6E86 - 5c76d059ef67142a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "bookApp.ViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;bookApp.ViewController&gt;"
+                  moduleName = "bookApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/renezelada/Documents/GitHub/Swift/bookApp/bookApp/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "139">
+               </Location>
+               <Location
+                  uuid = "2C6BA502-1648-4BD6-9A85-C3BAF08D6E86 - a1a0162c4a8fb2e2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "bookApp.ViewController.__deallocating_deinit"
+                  moduleName = "bookApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/renezelada/Documents/GitHub/Swift/bookApp/bookApp/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
