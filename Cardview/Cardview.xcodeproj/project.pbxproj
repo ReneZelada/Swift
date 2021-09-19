@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FFB1273026AF3556007B0EA5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB1272F26AF3556007B0EA5 /* AppDelegate.swift */; };
+		FFB1273226AF3556007B0EA5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB1273126AF3556007B0EA5 /* SceneDelegate.swift */; };
+		FFB1273426AF3556007B0EA5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB1273326AF3556007B0EA5 /* ViewController.swift */; };
+		FFB1273726AF3556007B0EA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFB1273526AF3556007B0EA5 /* Main.storyboard */; };
+		FFB1273926AF355A007B0EA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFB1273826AF355A007B0EA5 /* Assets.xcassets */; };
+		FFB1273C26AF355A007B0EA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFB1273A26AF355A007B0EA5 /* LaunchScreen.storyboard */; };
+		FFB1274726AF355B007B0EA5 /* CardviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB1274626AF355B007B0EA5 /* CardviewTests.swift */; };
+		FFB1275226AF355B007B0EA5 /* CardviewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB1275126AF355B007B0EA5 /* CardviewUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FFB1274326AF355B007B0EA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFB1272426AF3556007B0EA5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFB1272B26AF3556007B0EA5;
+			remoteInfo = Cardview;
+		};
+		FFB1274E26AF355B007B0EA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFB1272426AF3556007B0EA5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFB1272B26AF3556007B0EA5;
+			remoteInfo = Cardview;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FFB1272C26AF3556007B0EA5 /* Cardview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cardview.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFB1272F26AF3556007B0EA5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FFB1273126AF3556007B0EA5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FFB1273326AF3556007B0EA5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FFB1273626AF3556007B0EA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FFB1273826AF355A007B0EA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FFB1273B26AF355A007B0EA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FFB1273D26AF355A007B0EA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFB1274226AF355B007B0EA5 /* CardviewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardviewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFB1274626AF355B007B0EA5 /* CardviewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardviewTests.swift; sourceTree = "<group>"; };
+		FFB1274826AF355B007B0EA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFB1274D26AF355B007B0EA5 /* CardviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardviewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFB1275126AF355B007B0EA5 /* CardviewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardviewUITests.swift; sourceTree = "<group>"; };
+		FFB1275326AF355B007B0EA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FFB1272926AF3556007B0EA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFB1273F26AF355B007B0EA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFB1274A26AF355B007B0EA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FFB1272326AF3556007B0EA5 = {
+			isa = PBXGroup;
+			children = (
+				FFB1272E26AF3556007B0EA5 /* Cardview */,
+				FFB1274526AF355B007B0EA5 /* CardviewTests */,
+				FFB1275026AF355B007B0EA5 /* CardviewUITests */,
+				FFB1272D26AF3556007B0EA5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FFB1272D26AF3556007B0EA5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFB1272C26AF3556007B0EA5 /* Cardview.app */,
+				FFB1274226AF355B007B0EA5 /* CardviewTests.xctest */,
+				FFB1274D26AF355B007B0EA5 /* CardviewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFB1272E26AF3556007B0EA5 /* Cardview */ = {
+			isa = PBXGroup;
+			children = (
+				FFB1272F26AF3556007B0EA5 /* AppDelegate.swift */,
+				FFB1273126AF3556007B0EA5 /* SceneDelegate.swift */,
+				FFB1273326AF3556007B0EA5 /* ViewController.swift */,
+				FFB1273526AF3556007B0EA5 /* Main.storyboard */,
+				FFB1273826AF355A007B0EA5 /* Assets.xcassets */,
+				FFB1273A26AF355A007B0EA5 /* LaunchScreen.storyboard */,
+				FFB1273D26AF355A007B0EA5 /* Info.plist */,
+			);
+			path = Cardview;
+			sourceTree = "<group>";
+		};
+		FFB1274526AF355B007B0EA5 /* CardviewTests */ = {
+			isa = PBXGroup;
+			children = (
+				FFB1274626AF355B007B0EA5 /* CardviewTests.swift */,
+				FFB1274826AF355B007B0EA5 /* Info.plist */,
+			);
+			path = CardviewTests;
+			sourceTree = "<group>";
+		};
+		FFB1275026AF355B007B0EA5 /* CardviewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FFB1275126AF355B007B0EA5 /* CardviewUITests.swift */,
+				FFB1275326AF355B007B0EA5 /* Info.plist */,
+			);
+			path = CardviewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FFB1272B26AF3556007B0EA5 /* Cardview */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFB1275626AF355B007B0EA5 /* Build configuration list for PBXNativeTarget "Cardview" */;
+			buildPhases = (
+				FFB1272826AF3556007B0EA5 /* Sources */,
+				FFB1272926AF3556007B0EA5 /* Frameworks */,
+				FFB1272A26AF3556007B0EA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cardview;
+			productName = Cardview;
+			productReference = FFB1272C26AF3556007B0EA5 /* Cardview.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FFB1274126AF355B007B0EA5 /* CardviewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFB1275926AF355B007B0EA5 /* Build configuration list for PBXNativeTarget "CardviewTests" */;
+			buildPhases = (
+				FFB1273E26AF355B007B0EA5 /* Sources */,
+				FFB1273F26AF355B007B0EA5 /* Frameworks */,
+				FFB1274026AF355B007B0EA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFB1274426AF355B007B0EA5 /* PBXTargetDependency */,
+			);
+			name = CardviewTests;
+			productName = CardviewTests;
+			productReference = FFB1274226AF355B007B0EA5 /* CardviewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FFB1274C26AF355B007B0EA5 /* CardviewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFB1275C26AF355B007B0EA5 /* Build configuration list for PBXNativeTarget "CardviewUITests" */;
+			buildPhases = (
+				FFB1274926AF355B007B0EA5 /* Sources */,
+				FFB1274A26AF355B007B0EA5 /* Frameworks */,
+				FFB1274B26AF355B007B0EA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFB1274F26AF355B007B0EA5 /* PBXTargetDependency */,
+			);
+			name = CardviewUITests;
+			productName = CardviewUITests;
+			productReference = FFB1274D26AF355B007B0EA5 /* CardviewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FFB1272426AF3556007B0EA5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					FFB1272B26AF3556007B0EA5 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					FFB1274126AF355B007B0EA5 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = FFB1272B26AF3556007B0EA5;
+					};
+					FFB1274C26AF355B007B0EA5 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = FFB1272B26AF3556007B0EA5;
+					};
+				};
+			};
+			buildConfigurationList = FFB1272726AF3556007B0EA5 /* Build configuration list for PBXProject "Cardview" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FFB1272326AF3556007B0EA5;
+			productRefGroup = FFB1272D26AF3556007B0EA5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFB1272B26AF3556007B0EA5 /* Cardview */,
+				FFB1274126AF355B007B0EA5 /* CardviewTests */,
+				FFB1274C26AF355B007B0EA5 /* CardviewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FFB1272A26AF3556007B0EA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFB1273C26AF355A007B0EA5 /* LaunchScreen.storyboard in Resources */,
+				FFB1273926AF355A007B0EA5 /* Assets.xcassets in Resources */,
+				FFB1273726AF3556007B0EA5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFB1274026AF355B007B0EA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFB1274B26AF355B007B0EA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FFB1272826AF3556007B0EA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFB1273426AF3556007B0EA5 /* ViewController.swift in Sources */,
+				FFB1273026AF3556007B0EA5 /* AppDelegate.swift in Sources */,
+				FFB1273226AF3556007B0EA5 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFB1273E26AF355B007B0EA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFB1274726AF355B007B0EA5 /* CardviewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFB1274926AF355B007B0EA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFB1275226AF355B007B0EA5 /* CardviewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FFB1274426AF355B007B0EA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFB1272B26AF3556007B0EA5 /* Cardview */;
+			targetProxy = FFB1274326AF355B007B0EA5 /* PBXContainerItemProxy */;
+		};
+		FFB1274F26AF355B007B0EA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFB1272B26AF3556007B0EA5 /* Cardview */;
+			targetProxy = FFB1274E26AF355B007B0EA5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FFB1273526AF3556007B0EA5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFB1273626AF3556007B0EA5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FFB1273A26AF355A007B0EA5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFB1273B26AF355A007B0EA5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FFB1275426AF355B007B0EA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FFB1275526AF355B007B0EA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FFB1275726AF355B007B0EA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LQHW9B89QF;
+				INFOPLIST_FILE = Cardview/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bts.Cardview;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FFB1275826AF355B007B0EA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LQHW9B89QF;
+				INFOPLIST_FILE = Cardview/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bts.Cardview;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FFB1275A26AF355B007B0EA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LQHW9B89QF;
+				INFOPLIST_FILE = CardviewTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bts.CardviewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cardview.app/Cardview";
+			};
+			name = Debug;
+		};
+		FFB1275B26AF355B007B0EA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LQHW9B89QF;
+				INFOPLIST_FILE = CardviewTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bts.CardviewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cardview.app/Cardview";
+			};
+			name = Release;
+		};
+		FFB1275D26AF355B007B0EA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LQHW9B89QF;
+				INFOPLIST_FILE = CardviewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bts.CardviewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Cardview;
+			};
+			name = Debug;
+		};
+		FFB1275E26AF355B007B0EA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LQHW9B89QF;
+				INFOPLIST_FILE = CardviewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bts.CardviewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Cardview;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FFB1272726AF3556007B0EA5 /* Build configuration list for PBXProject "Cardview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFB1275426AF355B007B0EA5 /* Debug */,
+				FFB1275526AF355B007B0EA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFB1275626AF355B007B0EA5 /* Build configuration list for PBXNativeTarget "Cardview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFB1275726AF355B007B0EA5 /* Debug */,
+				FFB1275826AF355B007B0EA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFB1275926AF355B007B0EA5 /* Build configuration list for PBXNativeTarget "CardviewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFB1275A26AF355B007B0EA5 /* Debug */,
+				FFB1275B26AF355B007B0EA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFB1275C26AF355B007B0EA5 /* Build configuration list for PBXNativeTarget "CardviewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFB1275D26AF355B007B0EA5 /* Debug */,
+				FFB1275E26AF355B007B0EA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FFB1272426AF3556007B0EA5 /* Project object */;
+}

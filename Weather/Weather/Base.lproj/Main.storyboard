@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Weather" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sunny " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yvO-HI-ctz">
+                                <rect key="frame" x="25" y="43" width="60" height="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="75" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X2o-CP-4gO">
+                                <rect key="frame" x="245" y="43" width="43" height="42"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="X2o-CP-4gO" secondAttribute="height" multiplier="43:42" id="DNf-Ju-caN"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="35"/>
+                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sun" translatesAutoresizingMaskIntoConstraints="NO" id="oe7-vT-Drs">
+                                <rect key="frame" x="0.0" y="122" width="320" height="214"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="214" id="FDZ-a1-K9B"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="City Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H5o-hY-Loy">
+                                <rect key="frame" x="25" y="527" width="279" height="28"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="279" id="SWa-6g-4DY"/>
+                                    <constraint firstAttribute="height" constant="28" id="vvp-kQ-FFl"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="1" green="0.83234566450000003" blue="0.47320586440000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="X2o-CP-4gO" secondAttribute="trailing" constant="32" id="1rN-Rw-HbL"/>
+                            <constraint firstItem="H5o-hY-Loy" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="25" id="2Ux-xH-y3m"/>
+                            <constraint firstItem="X2o-CP-4gO" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="yvO-HI-ctz" secondAttribute="trailing" constant="8" symbolic="YES" id="3FQ-H0-YWQ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="H5o-hY-Loy" secondAttribute="bottom" constant="13" id="9b2-gn-y7W"/>
+                            <constraint firstItem="X2o-CP-4gO" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="43" id="TEV-gd-0pd"/>
+                            <constraint firstItem="oe7-vT-Drs" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="X5y-AR-zsb"/>
+                            <constraint firstItem="yvO-HI-ctz" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="25" id="aK6-Yw-PZ9"/>
+                            <constraint firstItem="yvO-HI-ctz" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="43" id="acv-tI-PpT"/>
+                            <constraint firstItem="oe7-vT-Drs" firstAttribute="top" secondItem="X2o-CP-4gO" secondAttribute="bottom" constant="37" id="gnC-Ue-IeQ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="H5o-hY-Loy" secondAttribute="trailing" constant="16" id="hM2-hp-Lv5"/>
+                            <constraint firstItem="H5o-hY-Loy" firstAttribute="top" secondItem="oe7-vT-Drs" secondAttribute="bottom" constant="191" id="p1e-kn-Ysj"/>
+                            <constraint firstItem="oe7-vT-Drs" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="tYz-X7-BIC"/>
+                            <constraint firstItem="H5o-hY-Loy" firstAttribute="top" secondItem="oe7-vT-Drs" secondAttribute="bottom" constant="191" id="zGb-GI-JCO"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="Clima" destination="yvO-HI-ctz" id="BJd-hi-Rca"/>
+                        <outlet property="background" destination="8bC-Xf-vdC" id="NfV-bZ-WsC"/>
+                        <outlet property="ciudad" destination="H5o-hY-Loy" id="bkp-9u-cjf"/>
+                        <outlet property="temperatura" destination="X2o-CP-4gO" id="1YF-eM-ANJ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="30" y="72.887323943661968"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="sun" width="128" height="128"/>
+    </resources>
+</document>
