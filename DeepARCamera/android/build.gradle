@@ -12,7 +12,20 @@ buildscript {
         classpath 'com.google.gms:google-services:4.1.0'
     }
 }
-
+buildTypes {
+    release {
+        debuggable false
+        minifyEnabled true
+        shrinkResources true
+        proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+    }
+    debug {
+        debuggable true
+        minifyEnabled true
+        shrinkResources true
+        proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+    }
+}
 rootProject.allprojects {
     repositories {
         google()
