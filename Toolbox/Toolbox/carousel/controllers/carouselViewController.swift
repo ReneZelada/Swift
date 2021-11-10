@@ -185,7 +185,11 @@ class carouselViewController: UIViewController,  UICollectionViewDelegate, UICol
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         if collectionView == colletcionViewcc2{
             let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "secondCollectionViewCell", for: indexPath) as! secondCollectionViewCell
-            cell.secondTitle.text = lista[indexPath.row].title
+            if (list[indexPath.row].title) == "" {
+                cell.secondTitle.text = "N/A"
+            }else {cell.secondTitle.text = list[indexPath.row].title}
+            
+            
             if let url = URL(string: list[indexPath.row].imageUrl){
                        if let data = try? Data(contentsOf: url){
                            if imageT2 == "thumb"{
@@ -201,7 +205,9 @@ class carouselViewController: UIViewController,  UICollectionViewDelegate, UICol
         
         
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "firstCollectionViewCell", for: indexPath) as! firstCollectionViewCell
-        cell.firstTitle.text = lista[indexPath.row].title
+        if (lista[indexPath.row].title) == "" {
+        cell.firstTitle.text = "N/A"
+        }else {cell.firstTitle.text = lista[indexPath.row].title}
         if let url = URL(string: lista[indexPath.row].imageUrl){
                    if let data = try? Data(contentsOf: url){
                        if imageT == "thumb"{
@@ -235,7 +241,7 @@ class carouselViewController: UIViewController,  UICollectionViewDelegate, UICol
                 vc.player = player
                 present(vc, animated: true)
             }else{
-                self.Alert(message: "Lo sentimos, algo salio mal!")
+                self.Alert(message: "video no disponible!")
             }
         }
     }
@@ -252,8 +258,8 @@ class carouselViewController: UIViewController,  UICollectionViewDelegate, UICol
     }
     
     func Alert(message: String){
-        let alert = UIAlertController(title: "Alert", message: message, preferredStyle: UIAlertController.Style.alert)
-        alert.addAction(UIAlertAction(title: "Accept", style: UIAlertAction.Style.default, handler: nil))
+        let alert = UIAlertController(title: "Alerta", message: message, preferredStyle: UIAlertController.Style.alert)
+        alert.addAction(UIAlertAction(title: "Aceptar", style: UIAlertAction.Style.default, handler: nil))
         self.present(alert, animated: true, completion: nil)
     }
 }
