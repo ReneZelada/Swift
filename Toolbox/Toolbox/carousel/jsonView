@@ -1,0 +1,63 @@
+import UIKit
+
+class ViewController: UIViewController {
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view.
+        addJson()
+    }
+    func addJson()
+    {
+        let url = URL(string: "https://api.unsplash.com/photos/?client_id=5d-f8r38cJ8aAymGh1SSOUOzrGYs3NKEf8i61xanDqE")
+        let task = URLSession.shared.dataTask(with: url!) { (data, response, error) in
+
+            if error != nil {
+                print(error!)
+
+            } else {
+                do {
+                    if let jsonData = try JSONSerialization.jsonObject(with: data!) as? [[String:Any]] {
+                       print(jsonData)
+                        for json in jsonData {
+                            
+                            print((json["urls"] as AnyObject) ["small"] as! String)
+                            print(json["likes"]!)
+                            print(((json["user"] as AnyObject) ["profile_image"] as AnyObject) ["small"] as! String)
+                        }
+                    }
+                }
+                catch {
+                    print(error)
+                }
+            }
+        }
+        task.resume()
+    }
+    func getJsonPokeApi()
+    {
+        let url = URL(string: "https://pokeapi.co/api/v2/pokemon/ditto")
+        let task = URLSession.shared.dataTask(with: url!) { (data, response, error) in
+
+            if error != nil {
+                print(error!)
+
+            } else {
+                do {
+                    if let jsonData = try JSONSerialization.jsonObject(with: data!, options: .allowFragments) as? [String:AnyObject]{
+                        print(jsonData)
+                        if let resultDictonary = jsonData["results"] as? [[String:AnyObject]]  {
+                                                print(resultDictonary[0])
+                                            }
+                       
+                    }
+                }
+                catch {
+                    print(error)
+                }
+            }
+        }
+        task.resume()
+    }
+
+}
